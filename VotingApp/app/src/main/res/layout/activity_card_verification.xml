@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/marron">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:text="Verification Process\nWelcome To Vote"
+            android:textColor="@color/yellow"
+            android:foregroundGravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMatch"
+            android:layout_marginTop="160dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap the NFC card"
+            android:textColor="@color/yellow"
+            android:textSize="24sp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME: "
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tvVoterId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VOTER ID: "
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tvDob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOB: "
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tvBooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOOTH NO: "
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnProceedFingerprint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proceed to FaceVerification"
+            android:enabled="false"
+            android:textColor="@color/marron"
+            android:backgroundTint="@color/yellow"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_box" />
+    </LinearLayout>
+</ScrollView>

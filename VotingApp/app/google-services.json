@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "825851067241",
+    "firebase_url": "https://ecssam001-default-rtdb.firebaseio.com",
+    "project_id": "ecssam001",
+    "storage_bucket": "ecssam001.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825851067241:android:7bdee4ca25dcb73ebc1bf8",
+        "android_client_info": {
+          "package_name": "com.example.evoting2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1UHIQ7wD1xHcVNakzxggtnU-ExuYdk5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825851067241:android:8253bf88d7e1b910bc1bf8",
+        "android_client_info": {
+          "package_name": "com.example.votingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1UHIQ7wD1xHcVNakzxggtnU-ExuYdk5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

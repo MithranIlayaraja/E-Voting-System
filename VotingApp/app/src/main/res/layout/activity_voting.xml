@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/marron">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        android:background="@drawable/rounded_box"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="CAST YOUR VOTE"
+            android:textColor="@color/marron"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvConstituencyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading Constituency..."
+            android:textColor="@color/marron"
+            android:textSize="16sp"
+            android:layout_marginBottom="15dp"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/rgParties"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btnCast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/marron"
+            android:textColor="@color/yellow"
+            android:background="@drawable/rounded_box"
+            android:text="Cast Your Vote"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>
