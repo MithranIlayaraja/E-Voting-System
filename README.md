@@ -154,21 +154,7 @@ Build and run the application.
 
 ---
 
-# 📸 Screenshots
 
-| Login                 | NFC Verification    |
-| --------------------- | ------------------- |
-| ![](assets/login.png) | ![](assets/nfc.png) |
-
-| Face Authentication  | Voting Screen          |
-| -------------------- | ---------------------- |
-| ![](assets/face.png) | ![](assets/voting.png) |
-
-| Vote Successful         |
-| ----------------------- |
-| ![](assets/success.png) |
-
----
 
 # 🔒 Security Features
 
@@ -216,7 +202,7 @@ Computer Science Student
 
 GitHub: https://github.com/MithranIlayaraja
 
-LinkedIn: *(Add your LinkedIn profile URL here)*
+
 
 ---
 
